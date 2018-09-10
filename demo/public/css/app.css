@@ -14,7 +14,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  padding-left: 30px; }
   .homepage-heading .title-wrapper {
     width: 200px;
     display: flex;
@@ -37,6 +38,7 @@ body {
     display: flex;
     justify-content: space-between;
     color: #999b9a;
+    padding-left: 30px;
     flex-wrap: wrap; }
     .homepage-content-wrapper .homepage-container-bottom .paragraph-container {
       max-width: 30%; }
@@ -54,7 +56,8 @@ body {
   .homepage-container-center .center-wrapper, .login-form .center-wrapper {
     width: 30%;
     min-width: 200px;
-    max-width: 400px; }
+    max-width: 400px;
+    padding-left: 30px; }
 
 .login-form {
   position: relative; }
@@ -85,5 +88,11 @@ body {
       text: #98ccf9;
       background: #98ccf9;
       align-self: flex-end; }
+
+.registerform {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 20px; }
 
 /*# sourceMappingURL=app.css.map */
