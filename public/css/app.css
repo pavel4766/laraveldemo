@@ -22,6 +22,8 @@ body {
     flex-wrap: nowrap; }
     .homepage-heading .title-wrapper .heading-title {
       font-size: 3em; }
+      .homepage-heading .title-wrapper .heading-title a {
+        text-decoration: none; }
     .homepage-heading .title-wrapper .heading-banner {
       background-image: url("/images/logo.png");
       background-repeat: no-repeat;

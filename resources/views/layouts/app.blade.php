@@ -18,7 +18,7 @@
     <div id="app">
         <div class="homepage-heading">
             <div class="title-wrapper">
-                <div class="heading-title">Lorem</div>
+                <div class="heading-title" ><a href="/">Lorem</a></div>
                 <div class="heading-banner" ></div>
             </div>
         @if(isset($user))
