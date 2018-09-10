@@ -85,11 +85,11 @@ body {
       left: 0; }
     .login-form form button {
       width: 100px;
-      text: #98ccf9;
+      color: #98ccf9;
       background: #98ccf9;
       align-self: flex-end; }
 
-.registerform {
+form.register {
   display: flex;
   flex-direction: column;
   width: 300px;
