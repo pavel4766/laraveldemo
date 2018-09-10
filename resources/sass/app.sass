@@ -1,0 +1,116 @@
+
+// Variables
+@import '_variables.sass'
+
+body
+  margin: 0
+  font-family: sans-serif
+
+  max-height: 768px
+  max-width: 1024px
+  min-height: 768px
+  min-width: 320px
+
+
+  #app
+    height: 768px
+
+
+
+.homepage-heading
+  background-color: $blue
+  color: $textBlue
+  display: flex
+  justify-content: space-between
+  align-items: center
+  flex-wrap: wrap
+  padding-left: 30px
+
+  .title-wrapper
+    width: 200px
+    display: flex
+    flex-wrap: nowrap
+    .heading-title
+      font-size: 3em
+    .heading-banner
+      background-image: url('/images/logo.png')
+      background-repeat: no-repeat
+      background-size: cover
+      border: 1px solid $blue
+      width: 100%
+      border-radius: 50%
+  //.login-register-wrapper
+
+.homepage-content-wrapper
+  color: #FFFFFF
+  display: flex
+  flex-direction: column
+
+  .homepage-container-bottom
+    display: flex
+    justify-content: space-between
+    color: $textGrey
+    padding-left: 30px
+    flex-wrap: wrap
+    .paragraph-container
+      max-width: 30%
+
+.homepage-container-center, .login-form
+  background-image : url('/images/banner.jpg')
+  background-repeat: no-repeat
+  background-size: cover
+  width: 100%
+  height: 50%
+  &.login-form
+    transform: scaleX(-1)
+    form
+      transform: scaleX(-1)
+
+  .center-wrapper
+    width: 30%
+    min-width: 200px
+    max-width: 400px
+    padding-left: 30px
+
+.login-form
+  position: relative
+
+  form
+    position: absolute
+    top: 100px
+    left: 50px
+    display: flex
+    flex-direction: column
+
+    input, button
+      margin: 10px
+      position: relative
+      width: 200px
+      height: 20px
+      border: 0
+      border-radius: 0
+      background: white
+      box-shadow: none
+
+    input:before
+      content: 'Login'
+      position: absolute
+      width: 200px
+      height: 20px
+      top: 0
+      left: 0
+
+    button
+      width: 100px
+      background: $textBlue
+      align-self: flex-end
+
+
+form
+  &.register
+    display: flex
+    flex-direction: column
+    width: 300px
+    padding: 20px
+
+
